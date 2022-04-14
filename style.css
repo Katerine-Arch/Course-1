@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.c-menu {
+    display: flex;
+}
+
+.m-list {
+    justify-content: space-around;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -11,6 +24,10 @@ p {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
+}
+
+.top_heading  {
+    font-size: 50px;
 }
 
 h3 {
